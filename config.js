@@ -7,19 +7,19 @@ global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "maxwellexcel2@gmail.com";
-global.location = "Imo, Nigeria";
+global.location = "Ibadan, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://astrofx0011:astro@cluster0.lmwnxdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/hakisolos/Queen_Nikka";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaoLotu42DchJmXKBN3L";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaoLotu42DchJmXKBN3L";
+global.github = process.env.GITHUB || "https://github.com/AiOfLautech/Queen_Nikka";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaXKAEoKmCPS6Jz7sw0N";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaXKAEoKmCPS6Jz7sw0N";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/zdD9xsf.mp4";
 global.devs = "2348121373516";
 global.sudo = process.env.SUDO || "2349112171078";
-global.owner = process.env.OWNER_NUMBER || "2349112171078";
+global.owner = process.env.OWNER_NUMBER || "2348089336992";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
@@ -51,8 +51,8 @@ module.exports = {
   caption: process.env.CAPTION || "`QUEEN_NIKKA™`",
   author: process.env.PACK_AUTHER || "QUEEN_NIKKA",
   packname: process.env.PACK_NAME || "N I K K A",
-  botname: process.env.BOT_NAME || "QUEEN_NIKKA",
-  ownername: process.env.OWNER_NAME || "HAKI",
+  botname: process.env.BOT_NAME || "AI Of Lautech",
+  ownername: process.env.OWNER_NAME || "AI Of Lautech",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
